@@ -1,0 +1,205 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'zombie';
+    src: url('fonts/zombie.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'city';
+    src: url('fonts/urbano.otf') format(opentype);
+}
+
+nav{
+    background-image: linear-gradient(#D2D904,#A66D03);
+}
+h1{
+    font-family: 'zombie';
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    margin: 0px;
+    font-size: 60px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin: 0px;
+    display: inline-block;
+    font-size: 20px;
+}
+
+nav >p:hover{
+    text-decoration: underline;
+    color: brown;
+}
+
+body{
+    background-image: linear-gradient( to right ,#8D816A, #92bf54);
+    height:100%;
+    margin: 0px;
+
+}
+main{
+    background-color: beige;
+    width: 700px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.principal{
+    text-align: center;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;  
+}
+
+article{
+    background-color: rgb(223, 223, 204);
+}
+
+img{
+    float: left;
+    border: transparent thin solid;
+    padding: 5px;
+    margin: 0px 10px 10px 0;
+    max-width: 186px;
+}
+
+p{
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.outros{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.041);
+    margin: 15px;
+    font-family: 'city';
+    font-size: 35px;
+
+}
+
+.img-container{
+    position: relative;
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    float: left;
+    width: 20%;
+    margin: 17px;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.7s ease-in;
+}
+
+.img-container:hover img.top {
+    opacity: 0;
+    filter: blur(20px) brightness(200%);
+}
+
+.segundo {
+    background-color: rgb(215, 215, 197);
+    /*transform: translateY(-80%);*/
+}
+
+.momentos{
+    text-align: center;
+    font-family: 'city';
+    font-size: 35px;
+    background-color: rgb(192, 192, 176);
+    margin: 15px;
+}
+
+h3{
+    font-size: 20px;
+    padding: 15px;
+    margin: 0px;
+}
+
+.lado{
+    display: inline-block;
+}
+
+.harshel{
+    background-image: linear-gradient( to right, rgba(95, 94, 94, 0.389), rgba(131, 131, 131, 0.362)) ;
+    height: 200px;
+}
+
+.harshel:hover{
+    background-image: linear-gradient(to right, #895a02b3, #a66d0394 );
+}
+
+.shane{
+    background-image: linear-gradient( to right, rgba(95, 94, 94, 0.389), rgba(131, 131, 131, 0.362)) ;
+    height: 200px;
+}
+
+.shane:hover{
+    background-image: linear-gradient(to right, #895a02b3, #a66d0394 );
+}
+
+.carl{
+    background-image: linear-gradient( to right, rgba(95, 94, 94, 0.389), rgba(131, 131, 131, 0.362)) ;
+    height: 200px;
+}
+
+.carl:hover{
+    background-image: linear-gradient(to right, #895a02b3, #a66d0394 );
+}
+
+.noah{
+    background-image: linear-gradient( to right, rgba(95, 94, 94, 0.389), rgba(131, 131, 131, 0.362)) ;
+    height: 200px;
+}
+
+.noah:hover{
+    background-image: linear-gradient(to right, #895a02b3, #a66d0394 );
+}
+
+@media screen and (max-width: 500px) {
+    .column {
+    width: 100%;
+    }
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+footer{
+    background-color: rgba(0, 100, 0, 0.356);
+    text-align: center;
+    margin: 5px;
+    padding: 4px;
+    
+
+}
+footer>p{
+    margin: 0px
+}
+
+.end{
+    font-size: 40px;
+    font-family: zombie;
+    padding: 0px;
+}
